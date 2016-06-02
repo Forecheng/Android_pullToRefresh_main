@@ -23,8 +23,8 @@ public interface ILoadingLayout {
     public void setRefreshingLabel(CharSequence label);
 
     //释放时的label
-    public void serReleaseLabel(CharSequence label);
+    public void setReleaseLabel(CharSequence releaseLabel);
 
     //设置文本被展示时的字体和风格
-    public void setTextType(Typeface textType);
+    public void setTextTypeface(Typeface textType);
 }
