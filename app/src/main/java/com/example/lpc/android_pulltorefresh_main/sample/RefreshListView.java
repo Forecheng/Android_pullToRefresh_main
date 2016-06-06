@@ -27,12 +27,12 @@ import java.util.Date;
  */
 public class RefreshListView extends ListView implements AbsListView.OnScrollListener{
 
-    private View mHeader;    //顶部的布局
-    private int mTopHeight;    //视图距离顶部的高度
+    private View mHeader;       //顶部的布局
+    private int mTopHeight;     //视图距离顶部的高度
     private int mFirstVisibleItem;   //第一个可见的item的位置
     private int mScrollState;   //滚动的状态
     private boolean isRemark;
-    private int mStartY;    //记录手指第一次按下时Y坐标
+    private int mStartY;            //记录手指第一次按下时Y坐标
 
     //下拉刷新的状态
     private int mState;    //用来保存当前的状态
