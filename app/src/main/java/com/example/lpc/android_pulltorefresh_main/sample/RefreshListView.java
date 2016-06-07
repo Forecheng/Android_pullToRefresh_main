@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Description: 自定义刷新listview组件
+ * Description: 自定义刷新ListView组件
  * Created by lpc on 2016/6/2.
  */
 public class RefreshListView extends ListView implements AbsListView.OnScrollListener{
